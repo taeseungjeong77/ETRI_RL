@@ -11,8 +11,8 @@ set -e
 BRANCH=${1:-main}
 
 # 환경 변수 설정
-WORK_DIR="${HOME}/RL-3DbinPacking"
-REPO_URL="https://github.com/your-username/RL-3DbinPacking.git"  # 실제 저장소 URL로 변경 필요
+WORK_DIR="${HOME}/ETRI_RL"
+REPO_URL="https://github.com/taeseungjeong77/ETRI_RL.git"  # 실제 저장소 URL
 LOG_DIR="${WORK_DIR}/logs"
 TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
 
